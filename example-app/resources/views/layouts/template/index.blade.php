@@ -1,0 +1,5 @@
+@include('layouts.navbar.index') 
+@include('layouts.sidebar.index')
+@yield('content')
+@include('layouts.footer.index') 
+@include('layouts.footer.js')

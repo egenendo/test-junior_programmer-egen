@@ -58,7 +58,7 @@ class Produk extends CI_Controller {
             'required' => 'Kategori harus di isi!'
         ]);
         $this->form_validation->set_rules('status_id', 'Status', 'required', [
-            'required' => 'Nama produk harus di isi!'
+            'required' => 'Status harus di isi!'
         ]);
 
         if ($this->form_validation->run() == FALSE) {
